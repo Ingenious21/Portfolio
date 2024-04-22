@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.personal-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    align-items: center;
+}
+
+
+.portfolio-pic {
+    width: 200px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.h2 {
+    margin-top: -5px;
+    margin-left: 115px;
+    color: #102C57;
+}
+
+.h6 {
+    text-align: center;
+    margin-top: -20px;
+    color: #1679AB;
+}
+
+.pi-2 {
+    margin-top: 150px;
+    border-left: 2px solid #31363F;
+    border-right: 2px solid #31363F;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pi-3 {
+    width: 300px;
+    padding-left: 25px;
+}
+
+.hd {
+    color: #D20062;
+}
+
+.pi-2 p, .pi-3 p {
+    color:#1679AB;
+}
+
+.ul {
+    color: #FA7070;
+}
+
+.footer {
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -8px;
+    margin-bottom: 100;
+    background-color: #C7C8CC;
+}
+
+.footer-address i{
+    margin-top: 240px;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer-copyright {
+    margin-top: -40px;
+    margin-right: 20px;
+    text-align: right;
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}

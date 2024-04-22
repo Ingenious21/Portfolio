@@ -86,3 +86,11 @@ i {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.p3-icons:hover {
+    color: #F99417;
+}
+
+.p3-icons::after {
+    color: #E55604;
+}
